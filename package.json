@@ -2,13 +2,13 @@
   "name": "version",
   "version": "1.0.0",
   "description": "Project for yahoocurrency getRequest",
-  "directories": {"ahoonewman"
+  "directories": {
+  	"yahoonewman": "tests"
   },
   "scripts": {
     "api-tests": "newman run tests/YahooAPI.postman_collection.json"
   },
   "author": "Arnaud",
-  "license": "ISC",
   "dependencies":{
   	"newman": "^3.8.2"
   }
