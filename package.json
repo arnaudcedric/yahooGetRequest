@@ -6,7 +6,7 @@
   	"test": "yahoonewman"
   },
   "scripts": {
-    "api-tests": "newman run tests/YahooAPI.postman_collection.json"
+    "api-tests": "newman run yahoonewman/YahooAPI.postman_collection.json"
   },
   "author": "Arnaud",
   "dependencies":{
